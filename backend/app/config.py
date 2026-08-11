@@ -3,7 +3,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 from typing import Optional
 
 class Settings(BaseSettings):
-    DATABASE_URL: str = "sqlite:///H:/intern/project/nyaya-ai/nyaya.db"
+    DATABASE_URL: str = "sqlite:///nyaya.db"
     JWT_SECRET: str = "supersecretnyayaaijwttokenforindianlegaltechsystem12345"
     JWT_ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 1440  # 24 hours
