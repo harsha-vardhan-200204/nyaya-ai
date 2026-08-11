@@ -1,0 +1,33 @@
+# Node dependencies
+node_modules/
+dist/
+.npm/
+
+# Python environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Databases
+nyaya.db
+*.db
+*.sqlite
+
+# Secrets and environment configurations
+.env
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
